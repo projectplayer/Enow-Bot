@@ -2,15 +2,15 @@ const Bot = require('anony-mpp-client');
 
 const bot = new Bot({
     name: "Huh???",
-    color: "#b1c8ff",
-    channel: "Enow",
+    color: "#ff9a7c",
+    channel: "✧𝓓𝓔𝓥 𝓡𝓸𝓸𝓶✧",
     logDisconnectReason: true || false, //this thing logs the reason to console if bots got disconnect
     avoidServerCrash: true || false, //this thing can handle server chrashes
     onlineMessage: 'Online', //this is optional
     logOnConnect: 'Connected' //this is optional, this thing log to the console bot got connect, by default its Connected to {room}
 
     //uri is optional, default: mppclone.com:8443
-}, 'mppclone.com:8443').login('6d87643e1369080f41e8ccaa.e1989d0d-112b-43f3-887a-409da7b86aab')
+}, 'mppclone.com:8443').login('a227a43ca6287ffc72042cf3.f0eb27e4-bce1-4656-8bb0-7eda584dc9a5')
 
 var prefix = "e"
 
